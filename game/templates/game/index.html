@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Connect Four</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+    <h1>Connect Four</h1>
+    <h2>Current Player: {{ current_player.name }}</h2>
+    <div class="board">
+        {% for cell in board.board_state %}
+            <div class="cell {% if cell == 'r' %}red{% elif cell == 'y' %}yellow{% endif %}"></div>
+        {% endfor %}
+    </div>
+    <form method="post">
+        {% csrf_token %}
+        <div class="buttons">
+            {% for col in columns %}
+                <button type="submit" name="column" value="{{ col }}" class="drop-button">{{ col|add:1 }}</button>
+            {% endfor %}
+        </div>
+    </form>
+    <a href="{% url 'reset_game' %}">Reset Game</a>
+</body>
+</html>

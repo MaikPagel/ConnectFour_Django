@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>We Have a Winner!</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        h1 {
+            color: green;
+        }
+        .winner {
+            font-size: 24px;
+            font-weight: bold;
+            color: #EDEEF1;
+        }
+    </style>
+</head>
+<body>
+    <h1>Connect Four</h1>
+    <div class="winner">{{ player.name }} wins!</div>
+    <a href="{% url 'index' %}">Play Again</a>
+</body>
+</html>
