@@ -9,7 +9,7 @@
 Dieses Spielprojekt richtet sich an:
 
 - Alle, die einfach Spaß an einer kleinen, aber funktionalen Anwendung haben.
-- Entwickler die gerne Webentwicklung mit Django ausprobieren möchten.   
+- Entwickler die gerne Webentwicklung mit Django vertraut sind.  
 
 
 ---
