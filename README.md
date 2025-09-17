@@ -26,8 +26,8 @@ ConnectFour Django ist ein Online-Spiel „Vier gewinnt“:
 
 ## 👍 Warum dieses Projekt?
 
-- **Lernen & Üben**: zeigt, wie man mit Django eine Webanwendung baut.  
-- **Demonstration**: Ideal, um zu zeigen, wie Backend und Frontend zusammenarbeiten.  
+- **Lernen & Üben**: zeigt, meinen Fortschritt in der Entwicklung für Webentwicklung mit Django.
+- **Demonstration**: Ideal, um zu zeigen, wie ich Backend und Frontend zusammenarbeiten lassen habe.  
 - **Einfache Handhabung**: Kein großer Aufwand nötig, um es zum Laufen zu bringen.
 
 ---
@@ -70,7 +70,7 @@ Dort kannst du spielen und das Spiel ausprobieren.
 - Mehr Spielmodi (z. B. gegen Computer)  
 - Online Multiplayer / Nutzerkonten  
 - Verbesserte grafische Darstellung & Design  
-- Mobile Freundlichkeit  
+- Responsive Design für mobile Freundlichkeit  
 
 ---
 
